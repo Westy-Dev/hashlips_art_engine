@@ -26,16 +26,31 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 5,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "background" },
+      { name: "skins" },
+      { name: "eyes" },
+      { name: "mouth" },
+      { name: "clothes" },
+      { name: "eye_wear" },
+      { name: "head_wear" },
+      { name: "accessories" },
+      { name: "items" },
     ],
   },
 ];
+
+/**
+ * 0) BACKGROUND
+1) SKINS
+2) FACIAL EXPRESSIONS 
+	A) EYES
+	B) MOUTH
+3) CLOTHES
+4) EYE WEAR (OPTIONAL)
+5) HEAD WEAR (OPTIONAL)
+6) ACCESSORIES (OPTIONAL)
+7) ITEMS (OPTIONAL) 
+ */
 
 const shuffleLayerConfigurations = false;
 
